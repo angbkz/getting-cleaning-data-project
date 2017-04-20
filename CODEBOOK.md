@@ -27,6 +27,14 @@ The purpose of the transformation is to clean and merge the training and test da
 6. Both train and test datasets rows are to be merged as one tidy dataset
 7. Finally, aggregate the tidy dataset using mean function by the subject and acitivity to create an average datasets.
 
+## run_analysis.R
+The run_analysis.R script performs the following steps:
+1. Load the activity label and feature into datasets respectively.
+2. Load and merge the training, activity and subject into dataset, by filtering the features with mean and standard deviation only.
+3. Load and merge the testing, activity and subject into dataset, by filtering the features with mean and standard deviation only.
+4. Merge the training and testing, assign to descriptive column names.
+5. Use descriptive activity names to name the activities in the merged set.
+6. Write the average of each variable for each activity and each subject into 'tidydata.txt'
 
 ## Output tidydata.txt 
 Identifiers
