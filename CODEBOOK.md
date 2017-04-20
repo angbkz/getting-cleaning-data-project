@@ -5,7 +5,7 @@ This document describes the variables of the analysis and the extract, transform
 
 ## Dataset
 The UCI HAR Dataset includes the following files:
- - 'features.txt' : List of all features.
+ - 'features.txt'            : List of all features.
  - 'activity_labels.txt'     : Links the class labels with their activity name.
  Training dataset
  - 'train/X_train.txt'       : Training set.
