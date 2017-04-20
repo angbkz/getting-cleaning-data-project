@@ -6,8 +6,8 @@ This document describes the contents of this repository and the instructions to 
 
 ## Content
 1. README.md - Describes the contents of this repository and the instructions to run the scripts.
-2. run_analysis.R - R code that perform the analysis to tidy the data and product a cleaned and aggregated data.
-3. CODEBOOK.md - Describes the variables of the tidy data set.
+2. CODEBOOK.md - Describes the variables of the tidy data set.
+3. run_analysis.R - R code that perform the data transformation and produce a cleaned and aggregated data.
 4. tidydata.txt - Output of tidy data. (average of each variable for each activity and each subject)
 
 ## Instructions
