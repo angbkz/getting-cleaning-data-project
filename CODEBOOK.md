@@ -5,22 +5,24 @@ This document describes the variables of the analysis and the extract, transform
 
 ## Dataset
 The UCI HAR Dataset includes the following files:
- - 'features.txt'            : List of all features.
- - 'activity_labels.txt'     : Links the class labels with their activity name.
+ - 'features.txt' : List of all features.
+ - 'activity_labels.txt' : Links the class labels with their activity name.
  Training dataset
- - 'train/X_train.txt'       : Training set.
- - 'train/y_train.txt'       : Training activity id.
+ - 'train/X_train.txt' : Training set.
+ - 'train/y_train.txt' : Training activity id.
  - 'train/subject_train.txt' : Each row identifies the subject who performed the activity for each window sample.
  Test dataset
- - 'test/X_test.txt'         : Test set.
- - 'test/y_test.txt'         : Test activity id.
- - 'test/subject_test.txt'   : Each row identifies the subject who performed the activity for each window sample.
- 
-## Identifiers
-* `subject` - The ID of the test subject
-* `activity` - The type of activity performed when the corresponding measurements were taken
+ - 'test/X_test.txt' : Test set.
+ - 'test/y_test.txt' : Test activity id.
+ - 'test/subject_test.txt' : Each row identifies the subject who performed the activity for each window sample.
 
-## Measurements
+
+## Output tidydata.txt 
+Identifiers
+* `activity` - The type of activity performed when the corresponding measurements were taken
+* `subject` - The ID of the test subject
+
+Measurements
 * tBodyAcc-mean-X
 * tBodyAcc-mean-Y
 * tBodyAcc-mean-Z
