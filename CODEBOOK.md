@@ -39,7 +39,7 @@ The run_analysis.R script performs the following steps:
 ## Output tidydata.txt 
 Identifiers
 * `activity` - The type of activity performed when the corresponding measurements were taken
-* `subject` - The ID of the test subject
+* `subject` - The ID of the subject
 
 Measurements
 * tBodyAcc-mean-X
