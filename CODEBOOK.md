@@ -16,6 +16,17 @@ The UCI HAR Dataset includes the following files:
  - 'test/y_test.txt' : Test activity id.
  - 'test/subject_test.txt' : Each row identifies the subject who performed the activity for each window sample.
 
+## Transformaton
+The purpose of the transformation is to clean and merge the training and test data and create one dataset.  Below are the transformations of the raw data set:
+
+1. The training and test sets ('train/X_train.txt' and 'test/X_test.txt') do not contain feature header names.
+2. Feature header names can be obtained from 'features.txt'.
+3. The training and test activity id ('train/y_train.txt' and 'test/y_test.txt') can be linked to 'activity_labels.txt' to obtain the    activity name.
+4. 'train/X_train.txt', 'train/subject_train.txt' and 'train/y_train.txt' required to merge as one train data set.
+5. 'test/X_test.txt', 'test/subject_test.txt' and 'test/y_test.txt' required to merge as one test data set.  
+6. Both train and test datasets rows are to be merged as one tidy dataset
+7. Finally, aggregate the tidy dataset using mean function by the subject and acitivity to create an average datasets.
+
 
 ## Output tidydata.txt 
 Identifiers
@@ -109,6 +120,3 @@ Measurements
 * 3 = `WALKING_DOWNSTAIRS`
 * 4 = `SITTING`
 * 5 = `STANDING`
-
-
-
